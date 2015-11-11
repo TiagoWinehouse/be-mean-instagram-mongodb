@@ -147,4 +147,16 @@ WriteResult({
   "nModified": 1
 })
 
+SkyWine(mongod-2.6.3) be-mean-pokemons> db.pokemons.find(_q)
+{
+  "_id": ObjectId("56438fad88d7b7eb41354e34"),
+  "name": "Moltres",
+  "description": "Pokemon Muito Forte com poderes mágicos",
+  "type": "fire",
+  "attack": 110,
+  "defense": 65,
+  "height": 21
+}
+Fetched 1 record(s) in 1ms
+
 ```
