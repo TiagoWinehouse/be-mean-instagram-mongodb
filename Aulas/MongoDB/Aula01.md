@@ -67,9 +67,9 @@
 
 
 
-# Exercício da Aula
-## [Exercício](https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/mongodb/export_import.md)
-## [Exercício Resolvido](https://github.com/TiagoWinehouse/be-mean-instagram-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
+## Exercício da Aula
+### [Exercício](https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/mongodb/export_import.md)
+### [Exercício Resolvido](https://github.com/TiagoWinehouse/be-mean-instagram-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
 
 ---
 

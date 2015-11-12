@@ -63,6 +63,10 @@ Depois é só salvar a modificação
 
 **`db.sua_collection.save(_p)`**
 
+## Exercício da Aula
+### [Exercício](https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/classes/mongodb/class-02-resolved.md)
+### [Exercício Resolvido](https://github.com/TiagoWinehouse/be-mean-instagram-mongodb/blob/master/exercises/class-02-resolved-tiagowinehouse.md)
+
 ---
 
 
