@@ -1,4 +1,4 @@
-# MongoDB
+# MongoDB - Correção do exercício da Aula 01 e inserção de novos dados 
 
 
 ## Comandos
