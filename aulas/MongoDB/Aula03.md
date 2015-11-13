@@ -66,11 +66,18 @@
 
 ## Operadores Lógicos
 
-### `$or db.collection.find( { $or : [ { a : 1 } , { b : 2 } ] } ) db.foo.find( { name : "bob" , $or : [ { a : 1 } , { b : 2 } ] } )` **Retorna objetos caso a cláusula OU for verdadeira.**
+### `$or`
+ `db.collection.find( { $or : [ { a : 1 } , { b : 2 } ] } ) db.foo.find( { name : "bob" , $or : [ { a : 1 } , { b : 2 } ] } )` **Retorna objetos caso a cláusula OU for verdadeira.**
 
-### `$nor db.collection.find( { $nor : [ { a : 1 } , { b : 2 } ] } )` **Retorna objetos caso a cláusula negação do OU for verdadeira, ou seja, não pode encontrar nenhuma cláusula verdadeira.**
+### `$nor`
 
-### `$and db.foo.insert( { a: [ 1, 10 ] } ) db.foo.find( { $and: [ { a: 1 }, { a: { $gt: 5 } } ] } )` **Retorna objetos caso a cláusula E for verdadeira.**
+`db.collection.find( { $nor : [ { a : 1 } , { b : 2 } ] } )` **Retorna objetos caso a cláusula negação do OU for verdadeira, ou seja, não pode encontrar nenhuma cláusula verdadeira.**
+
+### `$and`
+
+`db.foo.insert( { a: [ 1, 10 ] } ) db.foo.find( { $and: [ { a: 1 }, { a: { $gt: 5 } } ] } )`
+ **Retorna objetos caso a cláusula E for verdadeira.**
+
 ---
 
 ### Dúvida no fórum sobre esses Operadores lógicos
